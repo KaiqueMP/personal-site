@@ -1,0 +1,66 @@
+.container{
+    flex-direction: row;
+}
+
+.leftItems{
+    align-items: left;
+}
+
+.rightItems{
+    align-items: right;
+}
+
+h1{
+    font: Medium 28px Roboto;
+    letter-spacing: 0;
+    color: #00FF90;
+}
+h2{
+    text-align: left;
+    font:  80px Roboto black;
+    letter-spacing: 0;
+    color: #FFFFFF;
+}
+
+h3{
+    text-align: left;
+    font: Regular 28px/34px Roboto;
+    letter-spacing: 0;
+    color: #DCDCDC;
+}
+
+p{
+    max-width: 584px;;
+    text-align: left;
+    font: Regular 16px/19px Roboto;
+    letter-spacing: 0;
+    color: #D1D1D1;
+}
+
+.buttonSolid{
+    width: 174px;
+    height: 60px;
+    background: #00FF90 0% 0% no-repeat padding-box;
+    border-radius: 6px;
+    border: none;
+    font-size: 22px;
+    margin-right: 24px;
+    
+}
+
+.buttonBorder{
+    width: 174px;
+    height: 60px;
+    background-color: transparent;
+    color: white;
+    border-radius: 6px;
+    border: 1px solid #00FF90;
+    font-size: 22px;
+}
+
+.illustration{
+    width: 516px;
+    
+}
+
+
