@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './Header.css';
 
 class Menu extends Component{
     render(){
@@ -6,11 +7,11 @@ class Menu extends Component{
             <div className="App">
                 <header className="App-header">
                     <nav>
-                        <ul>
-                            <li>Inicio</li>
-                            <li>Sobre</li>
-                            <li>Projetos</li>
-                            <li>Contato</li>
+                        <ul className="menu">
+                            <li><a>Inicio</a></li>
+                            <li><a>Sobre</a></li>
+                            <li><a>Projetos</a></li>
+                            <li><a>Contato</a></li>
                         </ul>
                     </nav>
                 </header>

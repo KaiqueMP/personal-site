@@ -1,0 +1,41 @@
+body, ul, li, p{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2rem;
+
+}
+
+nav{
+    display: flex;
+    align-items: center;
+}
+
+
+a{
+    
+    text-decoration: none;
+    color: white;
+    margin-right: 3rem;
+    cursor: pointer;
+}
+a:hover{
+    transition: all 0,2s;
+    color: #00FF90;
+}
+
+
+.App-header{
+    display: flex;
+    justify-content: flex-end;
+    
+    height: 5rem;
+}
+
+.menu{
+    display: flex;
+    
+    margin-right: 25rem;
+    display: flex;
+}
+

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Typical from 'react-typical'
 import './inicio.css'
 
 
@@ -7,7 +8,12 @@ class Inicio extends Component{
         return(
             <div className="container">
                 <div clasName="leftItems">   
-                    <h1> Hello i'm  </h1>
+                <Typical
+                    steps={["< Hello i'm />", 3000, '< Olá, meu nome é />', 5000]}
+                    loop={Infinity}
+                    wrapper="p"
+                    className="saudacao"
+                />
                     <h2> Kaique Marques </h2>
                     <h3>UX/UI Designer and Front end developer</h3>
                     <p>Lorem ipsum a massa hendrerit pellentesque purus curabitur 
@@ -17,7 +23,7 @@ class Inicio extends Component{
                         fermentum nisi platea justo vestibulum
                     </p>
 
-              .      <button className="buttonSolid" href="">Projetos</button>
+                <button className="buttonSolid" href="">Projetos</button>
                     <button className="buttonBorder" href="">Contato</button>
                 </div>
 
