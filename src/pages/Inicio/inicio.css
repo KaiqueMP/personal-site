@@ -1,16 +1,9 @@
 .container{
     display: flex;
     justify-content: center;
-    margin-top: 12rem;
+    margin-top: 14rem;
+    
    
-}
-
-.leftItems{
-    align-items: left;
-}
-
-.rightItems{
-    align-items: right;
 }
 
 .styles_typicalWrapper__1_Uvh {
@@ -19,6 +12,13 @@
     color: #00FF90;
     margin: 0px;
 }
+
+#leftItems{
+    margin-right: 8rem;    
+    
+}
+
+
 h2{
     margin: 0px;
     text-align: left;
@@ -65,10 +65,16 @@ p{
 }
 
 .illustration{
-    display: flex;
+    /* display: flex; */
     width: 650px;
     justify-content: flex-end;
     
 }
 
+.scroll{
+    display: flex;
+    justify-content: center;
+    /* margin-top: -1rem; */
+    
+}
 
