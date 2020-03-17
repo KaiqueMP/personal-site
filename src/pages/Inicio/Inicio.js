@@ -7,7 +7,7 @@ class Inicio extends Component{
     render(){
         return(
             <div>
-                <div className="container">
+                <div className="container-inicio">
                     <div id="leftItems">   
                     <Typical
                         steps={["< Hello i'm />", 3000, '< Olá, meu nome é />', 5000]}
@@ -24,17 +24,19 @@ class Inicio extends Component{
                             fermentum nisi platea justo vestibulum
                         </p>
 
-                    <button className="buttonSolid" href="">Projetos</button>
-                        <button className="buttonBorder" href="">Contato</button>
+                        <button className="buttonSolid" href=""><span className="icon"></span>Projetos</button>
+                        <button className="buttonBorder" href=""><span className="icon"></span>Contato</button>
+
+                        
                     </div>
 
-                    <div className="rightItems">
-                        <img className="illustration" src={require('./assets/Ilustracao-inicio.png')} />
+                    <div >
+                    <img className="illustration" src={require('../../assets/Ilustracao-inicio.svg')} />                        
                     </div>
                 </div>
 
                 <div className="scroll">
-                        <img src={require('./assets/scroll.svg')} />
+                        <img src={require('../../assets/scroll.svg')} />
                 </div>
 
             </div>

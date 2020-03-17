@@ -12,8 +12,7 @@ nav{
 }
 
 
-a{
-    
+a{    
     text-decoration: none;
     color: white;
     margin-right: 3rem;
@@ -28,14 +27,14 @@ a:hover{
 .App-header{
     display: flex;
     justify-content: flex-end;
+    padding: 40px 0px;
     
-    height: 5rem;
 }
 
 .menu{
     display: flex;
     
-    margin-right: 25rem;
+    margin-right: 22rem;
     display: flex;
 }
 

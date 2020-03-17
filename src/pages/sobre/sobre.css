@@ -1,0 +1,53 @@
+
+.container-sobre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #15131C;
+    padding: 162px;
+    margin-top: 70px;
+
+}
+
+.container-sobre h2{
+    font: 600 28px Roboto;
+    letter-spacing: 0;
+    color: #00FF90;
+    margin: 0px;
+}
+
+
+
+.sobre-mim p{
+    max-width: 800px;;
+    text-align: left;
+    font: Regular 16px/19px Roboto;
+    letter-spacing: 0;
+    color: #D1D1D1;
+}
+
+.profile{
+    width: 398px;
+    margin-right: 60px;
+}
+
+.sobre-mim button{
+    width: 174px;
+    height: 60px;
+    background-color: transparent;
+    color: #00FF90;
+    border-radius: 6px;
+    border: 1px solid #00FF90;
+    font-size: 22px;
+    cursor: pointer;
+
+}
+.button-icons{
+    display: flex;
+    margin-top: 40px;
+}
+.button-icons .icon{
+    margin-left: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}

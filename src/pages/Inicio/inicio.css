@@ -1,7 +1,9 @@
-.container{
+.container-inicio{
     display: flex;
     justify-content: center;
-    margin-top: 14rem;
+    align-items: center;
+
+
     
    
 }
@@ -14,7 +16,15 @@
 }
 
 #leftItems{
+    flex-direction: row;
     margin-right: 8rem;    
+    /* background-color: blue; */
+}
+
+.rightItems{
+    display: flex;
+    align-items: flex-end;
+    /* background-color: red; */
     
 }
 
@@ -43,31 +53,51 @@ p{
 }
 
 .buttonSolid{
-    width: 174px;
-    height: 60px;
+    
     background: #00FF90 0% 0% no-repeat padding-box;
     border-radius: 6px;
     border: none;
     font-size: 22px;
     margin-right: 24px;
     margin-top: 60px;
-    
+    padding: 17px 30px;
+    cursor: pointer;
+}
+
+.buttonSolid .icon{
+    background: url(../../assets/play-icon.svg) no-repeat;
+    float: left;
+    width: 20px;
+    height: 20px;
+    margin-right: 15px;
+    margin-top: 2px;
 }
 
 .buttonBorder{
-    width: 174px;
-    height: 60px;
     background-color: transparent;
-    color: white;
+    color: #00FF90;
     border-radius: 6px;
     border: 1px solid #00FF90;
     font-size: 22px;
+    padding: 17px 30px;
+    cursor: pointer;
+   
+}
+
+.buttonBorder .icon{
+    background: url(../../assets/email-icon.svg) no-repeat;
+    float: left;
+    width: 20px;
+    height: 20px;
+    margin-right: 15px;
+    margin-top: 4px;
 }
 
 .illustration{
-    /* display: flex; */
-    width: 650px;
-    justify-content: flex-end;
+  
+    width: 768px;
+    height: 778px;
+
     
 }
 
