@@ -14,8 +14,8 @@ class Inicio extends Component{
                             wrapper="p"
                             className="saudacao"
                         />
-                        <h1> Kaique Marques </h1>
-                        <h3>UX/UI Designer and Front end developer</h3>
+                        <h3> Kaique Marques </h3>
+                        <h4>UX/UI Designer and Front end developer</h4>
                         <p>Lorem ipsum a massa hendrerit pellentesque purus curabitur 
                             imperdiet lectus gravida ornare eleifend, aliquet etiam 
                              
