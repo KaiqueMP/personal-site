@@ -7,7 +7,7 @@ import Sobre from './pages/sobre/sobre';
 function App() {
   return (
     <div>
-      <Menu />
+      {/* <Menu /> */}
       <Inicio />
       <Sobre />
     </div>
