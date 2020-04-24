@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+}
+
+.container-inicio{
+    display:flex;
+    flex-flow: column;
+    width: 100vw; 
+    height: 100vh;
+    justify-content: center;
+}
+
+.hero{
+    text-align: center;
+}
+
+.button {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+   
+    
+    
+}
+
+main > .scroll{
+    order: 1;
+}
+
+.styles_typicalWrapper__1_Uvh {
+    font: 600 14px Roboto;
+    letter-spacing: 0;
+    color: #00FF90;
+    margin: 0px;
+}
+
+
+
+h3{
+    margin: 0px;
+    font:  60px Roboto black;
+    letter-spacing: 0;
+    color: #FFFFFF;
+}
+
+h4{
+    font: Regular 14px/34px Roboto;
+    letter-spacing: 0;
+    color: #DCDCDC;
+    margin: 0;
+}
+
+p{
+    font-size: 18px;
+    font: Regular Roboto;
+    letter-spacing: 0;
+    color: #D1D1D1;
+    margin-top: 40px;
+}
+
+#email{
+    color: #00FF90;
+}
+
+.buttonSolid{
+    display: flex;
+    align-items: center;
+    background: #00FF90 0% 0% no-repeat padding-box;
+    border-radius: 6px;
+    border: none;
+    font-size: 13px;
+    /* margin-top: 34px; */
+    padding: 10px 18px;
+    margin: 7px;
+    cursor: pointer;
+
+}
+
+.button a{
+    text-decoration: none;
+}
+
+.buttonSolid .icon{
+    background: url(../../assets/play-icon.svg) no-repeat;
+    width: 20px;
+    height: 20px;
+    margin-right: 9px;
+    /* margin-top: 2px; */
+}
+
+.button-icons{
+    align-items: center;
+    margin-top: 12px;
+   
+}
+
+.button-icons a{
+    align-items: center;
+    padding: 4px;
+}
+
+
+
+
+
+
+
+
