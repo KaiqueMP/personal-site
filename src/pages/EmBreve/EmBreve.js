@@ -9,7 +9,7 @@ class EmBreve extends Component{
             <main className="container-inicio">
                     <section className="hero container-inicio">   
                      <Typical
-                            steps={["< Hello i'm />", 3000, '< Olá, meu nome é />', 5000]}
+                            steps={["< Hello, my name is />", 3000, '< Olá, meu nome é />', 5000]}
                             loop={Infinity}
                             wrapper="p"
                             className="saudacao"
