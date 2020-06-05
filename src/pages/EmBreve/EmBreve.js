@@ -17,7 +17,7 @@ class EmBreve extends Component{
                         
                         <h3> Kaique Marques </h3>
                         <h4>UX/UI Designer and Front end developer</h4>
-                        <p>Ainda estamos em construindo o site, por enquanto me encontre nas redes sociais abaixo ou mande um email para: <br/> <a id="email">contato@kaiquemarques.com.br</a> </p>         
+                        <p>Ainda construindo o site, por enquanto me encontre nas redes sociais abaixo ou mande um email para: <br/> <a id="email">contato@kaiquemarques.com.br</a> </p>         
                         <div className="button">
                             <a href="https://www.behance.net/KaiqueMarques" target="_blank" rel="noopener noreferrer">
                                 <button className="buttonSolid" ><span className="icon"></span>Projetos</button>
